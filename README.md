@@ -116,3 +116,5 @@ Along the way, I hit and fixed two realistic bugs:
 - Persist data using a real database (SQLite) instead of an in-memory list
 - Add basic authentication for protected routes
 - Write automated tests using `pytest` and FastAPI's `TestClient`
+
+  >http://claude.ai/projects(Sign-in and it will open)
