@@ -127,6 +127,8 @@ No code needed — FastAPI auto-builds a testing page (Swagger UI) from your rou
 | Speed | Faster | Slower (sync by default) |
 | Best for | Modern APIs, microservices | Simple apps, quick prototypes |
 
+• The async keyword: Used to mark a function or method as asynchronous, telling the system it can handle background operations.
+• The await keyword: Used inside an async function to pause that specific task and yield control back to the program until the data arrives, keeping the rest of the app responsive.
 **Interview line:** "FastAPI is async by default, auto-validates data using Pydantic, and auto-generates interactive docs — all things Flask needs extra libraries for. Flask is simpler with a gentler learning curve, but FastAPI is generally preferred for modern, high-performance APIs."
 
 ---
